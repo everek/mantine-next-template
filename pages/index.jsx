@@ -13,6 +13,7 @@ import {
 import { useNotifications } from '@mantine/notifications';
 import { Prism } from '@mantine/prism';
 import { DatePicker } from '@mantine/dates';
+import Nav from '../components/Nav'
 
 const code = `
 import React from 'react';
@@ -64,6 +65,7 @@ export default function Home() {
       </Head>
 
       <Container size={400} style={{ paddingTop: 80, paddingBottom: 120 }}>
+        <Nav />
         <Title style={{ textAlign: 'center', marginBottom: 20 }}>Mantine Next starter</Title>
         <Text align="center" style={{ marginBottom: 40 }}>
           This starter includes all @mantine packages, feel free to remove everything that is not
