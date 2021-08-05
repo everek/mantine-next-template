@@ -1,5 +1,7 @@
-# Mantine Next Template
+## Next.js Styling bug with `next/link` and `next/router`
 
-Get started with Mantine + Next with just a few button clicks.
-Click `Use this template` button at the header of repository or [follow this link](https://github.com/mantinedev/mantine-next-template/generate) and
-create new repository with all @mantine packages.
+### Steps to reproduce
+
+- Go to test page (/test)
+- Reload page via Browser
+- Navigate to "Home" page via Nav or "Test Button"
